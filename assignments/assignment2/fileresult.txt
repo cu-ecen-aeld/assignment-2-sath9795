@@ -1,0 +1,4 @@
+rm -f writer *.o
+cc  -c -o writer.o writer.c
+cc  -o writer writer.o
+
